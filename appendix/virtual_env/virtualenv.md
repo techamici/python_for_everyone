@@ -26,19 +26,19 @@ python3 -m venv <your-virtual-env>
 * MacOS/Linux
 ```bash
 #bash/zsh 
-$ source <venv>/bin/activate
+$ source <your-virtual-env>/bin/activate
 ```
 
 * Windows - command prompt 
 ```bash
 # cmd.exe
-C:\> <venv>\Scripts\activate.bat
+C:\> <your-virtual-env>\Scripts\activate.bat
 ```
 
 * Window - PowerShell
 ```bash
 # PowerShell
-PS C:\> <venv>\Scripts\Activate.ps1
+PS C:\> <your-virtual-env>\Scripts\Activate.ps1
 ```
 
 #### Step 3: Install packages in the virtual env
