@@ -1,4 +1,4 @@
-## Virtual environment
+## Virtual environment 
 - Virtual environment is a self-contained directory that contains
     - a Python installation
     - additional packages (e.g: numpy, pandas, Pillow ...)
@@ -17,7 +17,7 @@ for **particular versions** so that you can maintain seperate enviroment for you
 
 #### Step 1: Create a new virtual env 
 ```bash
-python -m venv <your-virtual-env>
+python3 -m venv <your-virtual-env>
 ```
 
 #### Step 2: Activate your selected virtual env
@@ -46,7 +46,7 @@ The Python Package Index (PyPI)[https://pypi.org/] is a repository of software f
 
 ##### Option 1: Install individual packages  
 ```bash
-pip install numpy
+pip install pillow
 pip install pandas==2.2.3
 ```
 
@@ -57,7 +57,7 @@ Export your installed packages into a file and share it to your friend
 ##### Option 2 (recommended): Install all packages from a file
 - Create a new file requirements.txt and copy the following lines into the file and save it:
 ```bash
-numpy
+pillow
 pandas==2.2.3
 ```
 Install all packages
@@ -68,9 +68,8 @@ pip list # show the list of installed packages
 
 #### Step 4: After finishing your project, deactivate env
 ```bash
-pip deactivate
+deactivate
 ```
-
 
 ### Link 
 (TechAmici Github)[https://github.com/techamici/python_for_everyone]
