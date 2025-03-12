@@ -17,6 +17,7 @@ for **particular versions** so that you can maintain seperate enviroment for you
 
 #### Step 1: Create a new virtual env 
 ```bash
+cd <your-project-folder> # go to the project folder
 python3 -m venv <your-virtual-env>
 ```
 
@@ -32,13 +33,13 @@ $ source <your-virtual-env>/bin/activate
 * Windows - command prompt 
 ```bash
 # cmd.exe
-C:\> <your-virtual-env>\Scripts\activate.bat
+<your-virtual-env>\Scripts\activate.bat
 ```
 
 * Window - PowerShell
 ```bash
 # PowerShell
-PS C:\> <your-virtual-env>\Scripts\Activate.ps1
+<your-virtual-env>\Scripts\Activate.ps1
 ```
 
 #### Step 3: Install packages in the virtual env
